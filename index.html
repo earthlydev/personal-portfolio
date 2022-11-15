@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Bootstrap CSS-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/style.css">
+
+  <!--Boxicon-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--Devicon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+
+    <title>&copy Divine</title>
+</head>
+<body>
+  <!--
+    Navigation
+  -->
+  <div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-center py-3 sticky-top">
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12 2c-4.963 0-9 4.038-9 9v8h.051c.245 1.691 1.69 3 3.449 3 1.174 0 2.074-.417 2.672-1.174a3.99 3.99 0 0 0 5.668-.014c.601.762 1.504 1.188 2.66 1.188 1.93 0 3.5-1.57 3.5-3.5V11c0-4.962-4.037-9-9-9zm7 16.5c0 .827-.673 1.5-1.5 1.5-.449 0-1.5 0-1.5-2v-1h-2v1c0 1.103-.897 2-2 2s-2-.897-2-2v-1H8v1c0 1.845-.774 2-1.5 2-.827 0-1.5-.673-1.5-1.5V11c0-3.86 3.141-7 7-7s7 3.14 7 7v7.5z"></path><circle cx="9" cy="10" r="2"></circle><circle cx="15" cy="10" r="2"></circle></svg>
+      </a>
+
+      <ul class="nav col-12 col-md-auto  mb-2 justify-content-center mb-md-0">
+        <li><a href="#projects" class="nav-link px-2 link-secondary">Projects</a></li>
+        <li><a href="#about" class="nav-link px-2 link-dark">About</a></li>
+      </ul>
+
+      <div class="col-md-3  text-end">
+        <button type="button" class="btn  rounded-pill resume-btn" onclick="window.open('https://drive.google.com/file/d/1p87WgrEPS_yIbRl1b5iBc-_nevnlU0l8/view?usp=sharing')">Resume <i class='bx-fw bx bx-right-top-arrow-circle bx-tada' ></i></button>
+      </div>
+    </header>
+  </div>
+  <!--
+    Hero
+  -->
+  <div class="hero mx-auto">
+    <div class="container text-start px-5">
+      <div class="row justify-content-end">
+          <div class="col-md-5 col-auto">
+            <h1 class="here-h1">Here to</h1>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-auto">
+            <h1 class="inspire-h1"><span class="fst-italic">Inspire</span> change</h1>
+          </div>
+      </div>
+      <div class="row justify-content-start">
+        <div class="col-">
+          <h2 class="fw-bold">Software Developer</h2>
+        </div>
+      </div>
+      <div class="row justify-content-start">
+        <div class="col-lg-6 col-sm-10">
+          <p>My intent is to connect with people and make a positive impact for Earth. I am currently learning React and interested in Machine Learning.</p>
+          <a href="#contact" class="contact-btn" role="button">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
+    Projects
+  -->
+  <div class="container py-5 projects" id="projects">
+    <h2>Selected<br>&nbsp;&nbsp;&nbsp;Projects</h2>
+    <div class="row row-cols-1 row-cols-md-3 gy-3">
+      <div class="col ">
+        <div class="card rounded-top ">
+          <img src="assets/img/flix-demo.gif" alt="" class="flix-demo card-img-top overflow-hidden" height="225">
+          <div class="card-body rounded-bottom">
+            <h6 class="card-title text-light">Full-Stack Web App</h6>
+            <p class="card-text text-white">Social media web app. Users can share their photos, which is shared with others. They can log in or create a profile. From there, photos can be deleted or edited.</p>
+            <div class="d-flex justify-content-end align-items-center">
+              <div class="btn-group ">
+                <button type="button" class="btn btn-sm btn-outline-light text-white disabled">Demo</button>
+                <button type="button" class="btn btn-sm btn-light text-white" onclick="window.open('https://github.com/earthlydev/flix-app')">Code</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card rounded-top ">
+          <img src="assets/img/tea-cozy-demo.gif" alt="" class="card-img-top overflow-hidden" height="225">
+          <div class="card-body rounded-bottom">
+            <h6 class="card-title text-light">Front-End Web App</h6>
+            <p class="card-text text-white">A mobile responsive web application to help customers view the Tea Cozy products. Clients can view featured tea, locations, and contact information.</p>
+            <div class="d-flex justify-content-end align-items-center">
+              <div class="btn-group ">
+                <button type="button" class="btn btn-sm btn-outline-light text-white" onclick="window.open('https://earthlydev.github.io/The-Tea-Cozy/')">Demo</button>
+                <button type="button" class="btn btn-sm btn-light text-white" oncllick="window.open('https://github.com/earthlydev/The-Tea-Cozy')">Code</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col ">
+        <div class="card rounded-top ">
+          <img src="assets/img/star-wars-demo.gif" alt="" class="card-img-top overflow-hidden" height="225">
+          <div class="card-body rounded-bottom">
+            <h6 class="card-title text-light">Node.js, MongoDB, & Express</h6>
+            <p class="card-text text-white">CRUD application, which a user can add in their favorite Star Wars quote and more. Join the Dark Side and let Darth Vader find Yoda or defeat them with the Rebels.</p>
+            <div class="d-flex justify-content-end align-items-center">
+              <div class="btn-group ">
+                <button type="button" class="btn btn-sm btn-outline-light text-white" onclick="window.open('https://star-wars-quotes-api.herokuapp.com/')">Demo</button>
+                <button type="button" class="btn btn-sm btn-light text-white" onclick="window.open('https://github.com/earthlydev/Star-Wars-Crud-APP')">Code</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" target="_blank" class="text-decoration-none"><p class="fst-italic text-end ">View more<i class='bx-fw bx bx-git-branch'></i></p></a>
+  </div>
+  <!--
+    About
+  -->
+  <div class="about container" id="about">
+    <div class="row">
+      <div class="col">
+        <h3>A little about me <i class='bx-fw bx bx-happy-beaming'></i></h3>
+        <h2>Hi there! I'm Jazmine. My preferred name is <span class="text-red fst-italic">Divine</span>.</h2>
+        <p>I am a web developer and a software engineer born and raised in Los Angeles, CA. I am passionate about the work that I build. Committed to developing and optimizing interactive and user-friendly websites and software.</p>
+        <br>
+        <p>Nature, animals, and people are what fuel my life. I deeply love connecting with others and nature itself. Oh! And you can't forget about music! All of these together is a godly combination. <i class='bx-fw bx bxs-heart text-red' ></i></p>
+        <div class="container-fluid d-flex flex-column flex-lg-row justify-content-evenly">
+          <div class="pb-3">
+            <h3 class="ps-5">My Handy Tools</h3>
+            <div class="marquee">
+              <div class="marquee--inner">
+                <span class="span-marquee">
+                  <div>
+                    <i class="devicon-express-original colored"></i>
+                    <i class="devicon-spring-plain colored"></i>
+                    <i class="devicon-bash-plain colored"></i>
+                    <i class="devicon-git-plain colored"></i><i class="devicon-mocha-plain colored"></i>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-bootstrap-plain colored"></i>
+                    <i class="devicon-react-original colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-mongodb-plain-wordmark colored"></i>
+                  </div>
+                </span>
+                <span class="span-marquee">
+                  <div>
+                    <i class="devicon-express-original colored"></i>
+                    <i class="devicon-spring-plain colored"></i>
+                    <i class="devicon-bash-plain colored"></i>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-bootstrap-plain colored"></i>
+                    <i class="devicon-react-original colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-mongodb-plain-wordmark colored"></i><i class="devicon-git-plain colored"></i><i class="devicon-mocha-plain colored"></i>      
+                </div>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="pb-3">
+            <h3 class="ps-5">My Human Qualities</h3>
+            <div class="marquee">
+              <div class="marquee--inner">
+                <span class="span-marquee">
+                  <div>PROBLEMING SOLVING ☻ COMMUNICATION ☻</div>
+                </span>
+                <span class="span-marquee">
+                  <div>TEAMWORK ☻ LEADERSHIP ☻</div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
+    Contact
+  -->
+  <div class="contact d-flex justify-content-center align-items-center flex-column" id="contact">
+    <h2 class="text-center">LET'S HAVE A <br><span class="text-red fst-italic">CONVERSATION</span></h2>
+    <p class="w-50">Open to opportunities where I can evolve, learn, and connect! Contributing with my technical and soft skills in a dynamic team.</p>
+    <a href="mailto:jarizala.dev@gmail.com" class="text-decoration-none" >
+      <h4>jarizala.dev@gmail.com</h4>
+    </a>
+    <h4></h4>
+  </div>
+  <!--
+    Back to top button
+  -->
+  <button type="button" id="btn-back-to-top" class="btn btn-floating" ><i class='bx bxs-up-arrow-circle'></i></button>
+<!--
+  Footer
+-->
+  
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top sticky-bottom">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">&copy; Divine</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg></a></li>
+    </ul>
+  </footer>
+</div>
+<!--Boostrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- JS -->
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
