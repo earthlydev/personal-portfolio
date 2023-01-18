@@ -112,10 +112,6 @@ p{
 .card > img{
     object-fit: fit;
 }
-.card > .flix-demo{
-    object-fit: contain;
-    background-color: #F3CEB4;
-}
 .about{
     min-height: 90vh;
     margin-top: 100px;
